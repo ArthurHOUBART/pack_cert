@@ -1,0 +1,16 @@
+{
+"name":"cert",
+
+"description":"Certificat checks. Checks are done by check_ssl_cert",
+
+"templates": ["cert-http", "cert-imap", "cert-smtp", "cert-pop3", "cert-ftp", "cert-xmpp"],
+
+"macros":{
+        "_CERT_CRITICAL_DAYS": {"type":"integer",
+                             "description":"minimum number of days a certificate has to be valid to issue a critical status"
+                             },
+         }
+        "_CERT_WARNING_DAYS": {"type":"integer",
+                             "description":"minimum number of days a certificate has to be valid to issue a warning status"
+                             }
+}
