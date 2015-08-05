@@ -3,6 +3,7 @@
  "types": ["pack"],
  "version": "1.0",
  "homepage": "https://github.com/ArthurHOUBART/pack_cert",
+ "repository": "https://github.com/ArthurHOUBART/pack_cert",
  "author": "Arthur HOUBART",
  "description": "Certificates check",
  "contributors": [
